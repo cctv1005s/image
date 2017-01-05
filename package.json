@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "chardet": "^0.1.0",
+    "iconv-lite": "^0.4.15",
+    "md5": "^2.2.1",
+    "request": "^2.79.0"
+  }
+}
