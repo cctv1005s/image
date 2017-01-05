@@ -1,0 +1,11 @@
+<% for(var i in video){ %>
+	<a href="<%- video[i].href %>" target="_blank"><img src="<%- video[i].image %>"></a>
+<% }%>
+<button id="next">下一页</button>
+
+<script type="text/javascript">
+	$('#next').click(function(e){
+		window.location.href = "/?page=<%- parseInt(page)+1 %>"
+	});
+</script>
+
